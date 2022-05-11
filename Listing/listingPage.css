@@ -1,0 +1,29 @@
+body{
+    margin :auto;
+}
+/*Header*/
+header{
+    height: 60px;
+    width: 100%;
+    border: 2px groove red;
+    background-color: rgb(241, 174, 49);
+}
+a{
+    text-decoration: none;
+}
+#icon{
+    float: left;
+    font-size: 30px;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#social{
+    float:right;
+}
+.slogo{
+    height: 50px;
+    width: 45px;
+}

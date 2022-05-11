@@ -1,0 +1,175 @@
+body{
+    margin :auto;
+}
+/*Header*/
+header{
+    height: 60px;
+    width: 100%;
+    border: 2px groove red;
+    background-color: rgb(241, 174, 49);
+}
+a{
+    text-decoration: none;
+}
+#icon{
+    float: left;
+    font-size: 30px;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#social{
+    float:right;
+}
+.slogo{
+    height: 50px;
+    width: 45px;
+}
+/*Search*/
+#search{
+    
+    height: 400px;
+    width: 100%;
+    background-image: url('Z.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#content{
+height: 350px;
+width:60%;
+/* border:2px groove white; */
+margin-left: 19%;
+margin-top:2%;
+position: absolute;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin:auto;
+    background-color: rgba(255,255,255,60%);
+}
+#logo>span{
+    font-size:80px;
+    position: absolute;
+    margin-left:5%;
+    margin-top:4%;
+
+}
+#heading{
+    font-size:50px;
+    margin-left: 6%;
+    color:white;
+}
+.dropdown{
+    height:50px;
+    width: 100%;
+    /* border :2px groove white; */
+    position: absolute;
+    margin-top:4%;
+}
+select{
+    height:60px;
+    width:40%;
+    font-size:18px;
+    text-align:center;
+}
+.restSelect{
+    width:55%;
+}
+
+/*Quick-Search*/
+#quickSearch{
+     height: 600px; 
+    width: 80%;
+    margin-left:10%;
+    margin-top: 2%;
+    display: inline-block;  
+    /* for display block height property is not required */
+    /* border: 2px groove rgb(173, 87, 7); */
+}
+#quickHeading{
+    display:block;
+    font-size:30px;
+    color:#d77440;
+    font-weight:bold;
+    margin-left:2%;
+   
+
+}
+#quickSubHeading{
+    display:block;
+    font-size:20px;
+    color:gray;
+    line-height:2;
+    margin-left:2%;
+    /* font-weight:bold; */
+}
+.tileContainer{
+    width:30%;
+    height:180px;
+    /* border:2px groove rgb(160, 224, 144); */
+    box-shadow: 10px 10px 10px 10px rgb(179, 223, 175);
+    float:left;
+    margin-left: 2%;
+    margin-top:2%;
+    
+}
+.tileComponent1{
+    width: 50%;
+    float:left;
+    height: 180px;
+
+
+}
+.tileComponent1>img{
+    width:100%;
+    height:180px;
+}
+.tileComponent2{
+    width: 45%;
+    margin-left:5%;
+    margin-top: 14%;
+    float:left;
+}
+.componentHeading>a{
+    color:#d77440;
+    font-size: 25px;
+
+
+}
+.componentSubHeading{
+    
+    color:gray;
+    font-size: 20px;
+    
+
+}
+
+
+/*Footer*/
+footer{
+    height: 120px;
+    width: 100%;
+    margin-top: 2%;
+    background-color:rgb(216, 216, 119)
+}
+
+#footText{
+    text-align: center;
+    font-weight:bold;
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align:center;
+}
+.noborder{
+    border:none
+}
